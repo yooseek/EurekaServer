@@ -15,7 +15,7 @@ services:
   discovery: # 컨테이너2 :
     container_name: discovery
     build:
-      context: ./discovery/
+      context: .
       dockerfile: Dockerfile
     ports:
       - "6001:6001"
